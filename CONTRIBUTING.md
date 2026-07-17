@@ -2,6 +2,14 @@
 
 感谢你对 ppt-stats 的关注！欢迎提交 Issue、PR 或参与讨论。
 
+## 代码仓库
+
+| 平台 | 地址 |
+| --- | --- |
+| GitHub | <https://github.com/ICodeWR/ppt_stats> |
+| Gitee | <https://gitee.com/icodewr/ppt-stats> |
+| GitCode | <https://gitcode.com/ICodeWR/ppt-stats> |
+
 ## 如何贡献
 
 ### 报告 Bug
@@ -21,7 +29,7 @@
 ## 开发环境
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:ICodeWR/ppt_stats.git
 cd ppt-stats
 uv sync
 ```

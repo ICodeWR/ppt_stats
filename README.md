@@ -13,6 +13,12 @@
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/ICodeWR/ppt_stats"><img src="https://img.shields.io/badge/GitHub-181717?logo=github" alt="GitHub"></a>
+  <a href="https://gitcode.com/ICodeWR/ppt-stats"><img src="https://img.shields.io/badge/GitCode-FC6D26?logo=git" alt="GitCode"></a>
+  <a href="https://gitee.com/icodewr/ppt-stats"><img src="https://img.shields.io/badge/Gitee-C71D23?logo=gitee" alt="Gitee"></a>
+</p>
+
 ## 功能
 
 | 功能 | 说明 |
@@ -28,7 +34,13 @@
 本项目使用 [uv](https://docs.astral.sh/uv/) 管理依赖。
 
 ```bash
-git clone <repo-url>
+# GitHub
+git clone git@github.com:ICodeWR/ppt_stats.git
+# Gitee（国内推荐）
+git clone git@gitee.com:icodewr/ppt-stats.git
+# GitCode
+git clone git@gitcode.com:ICodeWR/ppt-stats.git
+
 cd ppt-stats
 uv sync
 ```
@@ -63,6 +75,25 @@ uv run python ppt_stats.py "D:\交付文档" -r -j -o 统计结果.json
 | `-c, --csv` | CSV 格式输出 |
 | `-j, --json` | JSON 格式输出 |
 | `-o, --output FILE` | 将结果保存到文件 |
+
+## 项目结构
+
+```
+ppt-stats/
+├── assets/
+│   ├── logo.svg         # 项目 Logo
+│   └── msgf.jpg         # 公众号二维码
+├── ppt_stats.py         # 主程序
+├── pyproject.toml       # 项目配置
+├── uv.lock              # 依赖锁定
+├── README.md            # 项目说明
+├── LICENSE              # MIT 协议
+├── CONTRIBUTING.md      # 贡献指南
+├── CHANGELOG.md         # 更新日志
+├── article.md           # 项目介绍文章
+├── .gitignore
+└── .python-version
+```
 
 ## 开源协议
 

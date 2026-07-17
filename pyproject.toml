@@ -1,0 +1,27 @@
+[project]
+name = "ppt-stats"
+version = "0.1.0"
+description = "统计 PPT 页数、尺寸、形状数量等信息的工具"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "码上工坊" }
+]
+dependencies = [
+    "python-pptx>=0.6.23",
+]
+
+[project.scripts]
+ppt-stats = "ppt_stats:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[dependency-groups]
+dev = []

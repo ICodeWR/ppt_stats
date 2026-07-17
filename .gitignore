@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Backups
+bak/
+
+# Output files
+*.csv
+*.txt
+*.md
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!article.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

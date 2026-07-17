@@ -90,7 +90,6 @@ ppt-stats/
 ├── LICENSE              # MIT 协议
 ├── CONTRIBUTING.md      # 贡献指南
 ├── CHANGELOG.md         # 更新日志
-├── article.md           # 项目介绍文章
 ├── .gitignore
 └── .python-version
 ```
